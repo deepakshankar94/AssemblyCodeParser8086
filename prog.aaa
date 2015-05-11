@@ -1,0 +1,9 @@
+ADDY DB 12H
+MOV AX,CX
+    JMP XYZ
+    ADD BX,[1235h]
+	MOV AX,BX
+	MOV CX,[BP]
+ XYZ:	
+ SUB AL,04h
+
